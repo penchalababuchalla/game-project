@@ -1,4 +1,17 @@
 .margin{
 	margin-left: 40%;
 	margin-top: 100px;
+	margin-right: 43%;
+	box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.width{
+	width: 35px;
+	border-color: black;
+}
+.clr{
+	background-color:green;
+	color: white;
+	border-radius: 10px;
+	border-color: black;
 }

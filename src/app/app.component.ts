@@ -9,12 +9,18 @@ import { Component } from '@angular/core';
 export class AppComponent {
   lastValue = "e";
   isdisabled = false;
+  isShow = true;
 
   matrix = [
     ["e", "e", "e"],
     ["e", "e", "e"],
     ["e", "e", "e"]
   ];
+
+  openGame(){
+    this.isShow = false;
+  }
+
 
   changeValue(i: number, j: number){
     
