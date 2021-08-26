@@ -15,3 +15,16 @@
 	border-radius: 10px;
 	border-color: black;
 }
+.winner{
+	border: 1px solid;
+	margin-left: 40%;
+	margin-right: 43%;
+	background-color: lightcoral;
+	margin-top: 100px;
+}
+h5{
+	font-size: 10px;
+}
+p{
+	font-size: 10px;
+}
