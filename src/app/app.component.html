@@ -1,12 +1,5 @@
 <button (click)="openGame()"[hidden]="!isShow" class="margin clr">playNow</button>
-<div class="winner"[hidden]="!winner1">
-  <h5>GAME OVER</h5>
-  <p>The winner is " 0 "</p>
-</div>
-<div class="winner"[hidden]="!winner2">
-  <h5>GAME OVER</h5>
-  <p>The winner is " X "</p>
-</div>
+
 <div class="margin" [hidden]="hideGameLayout()">
   <div class="row">
     <div>
@@ -42,5 +35,12 @@
     </div>
   </div>
 </div>
-
+<div class="winner"[hidden]="!winner1">
+  <h5>GAME OVER</h5>
+  <p>The winner is " 0 "</p>
+</div>
+<div class="winner"[hidden]="!winner2">
+  <h5>GAME OVER</h5>
+  <p>The winner is " X "</p>
+</div>
    
